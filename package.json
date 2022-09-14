@@ -1,0 +1,27 @@
+{
+  "name": "casbin-jsep",
+  "version": "1.0.0",
+  "description": "casbin jsep issue",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "ts-node ./src/index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/issuebox/casbin-jsep.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/issuebox/casbin-jsep/issues"
+  },
+  "homepage": "https://github.com/issuebox/casbin-jsep#readme",
+  "dependencies": {
+    "casbin": "^5.17.0"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.1"
+  }
+}
