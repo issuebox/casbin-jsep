@@ -8,8 +8,8 @@ async function init() {
   );
   const result1 = await e1.enforce(
     {
-      user: {
-        username: "alice",
+      attr: {
+        id: "alice",
       },
     },
     "read"
@@ -24,7 +24,9 @@ async function init() {
   );
   const result2 = await e2.enforce(
     {
-      username: "alice",
+      attrs: {
+        username: "alice",
+      },
     },
     "read"
   );
